@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Encriptador</title>
+</head>
+<body>
+	<div class="area-encriptado">
+			<header class="titulo"><h1>ENCRIPTADOR DE TEXTO</h1></header>
+			<br><br><br><br><br><br><br>
+			<section class="form">
+				<textarea name="form" id="text-area" cols="30" rows="10"></textarea>
+			<br>
+			<label for="titulo-form">Texto a transformar</label>
+			</section>
+			<br><br>
+    </div>
+			<div id="area-error">
+				<span id="error"></span>
+			</div>
+			<span id="advertencia">Favor de no utilizar números, acentos, ni caracteres especiales.</span>
+			<br><br>
+        		<button id="boton-encriptar" class="boton-main"><b id="titulo-encriptar">Encriptar</b></button>
+            	<button id="boton-desencriptar" class="boton-main"><b id="titulo-desencriptar">Desencriptar</b></button>
+
+			<section id="campo">
+				<textarea id="texto-transformado"></textarea>
+				
+			</section>
+			<button id="copy"><p>copiar</p></button>
+
+			<footer id="footer">
+				Tomás Alejandro Alcaraz © 2022
+			</footer>
+			<script src="js/variables.js"></script>
+			<script src="js/encriptar.js"></script>
+			<script src="js/desencriptar.js"></script>
+			<script src="js/copiar.js"></script>
+</body>
+</html>
